@@ -1,10 +1,11 @@
 import React from "react";
 import LoginForm from "../../components/LoginForm";
 
-const Login = () => {
+const Login = ({setIsLogin}) => {
+  // const { wellcomeMessage } = props
   return (
     <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '25vh'}}>
-      <LoginForm />
+      <LoginForm setIsLogin={setIsLogin}/>
     </div>
   );
 };

@@ -13,7 +13,7 @@ import QuienesSomos from "../pages/Dashboard/QuienesSomos";
 import ButtonAppBar from "../components/AppBar";
 import SoyPro from "../pages/Dashboard/SoyPro"
 
-let pro = false;
+let pro = true;
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
     // const { component } = props
@@ -27,7 +27,6 @@ const Routes = () => {
     return (
       <Router>
         <ButtonAppBar />
-  
         <Switch>
           <Route exact path="/" component={Main} />
           <Route path="/contacto">

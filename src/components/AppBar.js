@@ -14,7 +14,7 @@ export default function ButtonAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Link
-            to="/main"
+            to="/"
             style={{ color: "#FFF", textDecoration: "none" }}
           >
             <Button color="inherit">Home</Button>
